@@ -1,0 +1,51 @@
+/*-----header-----*/
+#main-header {
+    height: 400px;
+}
+
+#about-site {
+    color: grey;
+}
+
+#site-title a{
+    
+    font-size:28px;
+    color:black;
+}
+
+#site-title a:hover{
+	color: orange;
+}
+
+
+/*-----main-----*/
+h1 {
+    font-size: 40px;
+    color: darkslategrey;
+    /*font-family:sans-serif;*/
+}
+
+p {
+    color: dimgrey;
+}
+
+#blog-content {
+    width: 1000px;
+}
+
+.h-style {
+    color: darkslategrey;
+}
+
+/*-----main-content-----*/
+/*H1 ke h-style wale sabme ho jaega yeh*/
+h1.h-style {
+    font-family: sans-serif;
+}
+
+/*H4 ke h-style wale sabme ho jaega yeh*/
+h4.h-style {
+    font-family: monospace;
+    font-size: 18px;
+}
+
