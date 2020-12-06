@@ -1,0 +1,22 @@
+
+#logo-img-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("image/macbook_mouse.jpg");
+    /*background-image: url("image/macbook_mouse.jpg"),url("image/logo_switchtocode.png");*/
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-size: contain;
+    background-attachment: fixed;
+
+}
+ 
+ /*#logo-img-container p{
+ 	color: transparent;
+ }*/
+/*#logo-img-container:hover p{
+
+   font-size: 50px;
+   text-align: center;
+   color: blue;
+}*/
