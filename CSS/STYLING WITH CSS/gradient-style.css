@@ -1,0 +1,14 @@
+#container{
+	height: 400px;
+	width: 400px;
+	margin: 40px;
+	border:2px solid black;
+	/*background-image: linear-gradient(red,blue);*/
+   	/*background-image: linear-gradient(red ,blue 20%);*/
+    /*background-image: linear-gradient(red,blue 120%);*/
+    /*background-image: linear-gradient(to top right , red, cyan , blue);*/
+    background:repeating-linear-gradient(to top right , red,blue 20px);
+
+
+
+}
