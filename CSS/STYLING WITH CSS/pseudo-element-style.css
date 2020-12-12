@@ -1,0 +1,14 @@
+p::first-letter{
+   font-size: 2rem;
+   font-weight: bolder;
+   text-transform: capitalize;
+}
+
+p::before{
+   
+   content: 'Before';
+   font-size: 2rem;
+   font-weight: bolder;
+   text-transform: capitalize;
+
+}
