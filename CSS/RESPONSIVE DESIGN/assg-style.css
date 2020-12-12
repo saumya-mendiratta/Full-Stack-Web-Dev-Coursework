@@ -1,0 +1,28 @@
+div{
+	width: 32%;
+	height: 300px;
+	margin: 0.44%;
+	display: inline-block;
+}
+
+#div1{
+	background-color: #ff8989;
+
+}
+
+#div2{
+	background-color: #88f7ce;
+
+}
+#div3{
+	background-color: #e29df2;
+
+}
+
+@media only screen and (max-width: 600px) {
+    div {
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+}
