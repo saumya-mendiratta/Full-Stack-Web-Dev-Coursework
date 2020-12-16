@@ -1,0 +1,41 @@
+div{
+
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	background-color: cyan;
+	/*transform: rotate(40deg);*/
+	/*transform: scale(1.5);*/
+	/*transform: translate(100px ,100px);   
+	transform: skew(40deg,40deg);*/
+
+
+	transition: 1s ease-in-out;
+	/*transition:height 1s ease-in-out;*/
+	/*transition: 1s steps(10,end);*/
+}
+
+/*1.*/
+/*div:hover{
+
+	height: 400px;
+	width: 400px;
+}*/
+
+/*2.*/
+div:hover{
+ 
+ transform: translateX(300px) scale(1.5);
+ /*transform: scale(1.5);*/
+
+}
+
+/*3.*/
+div:hover{
+
+	transform: translateX(100px) rotate(360deg) ;
+	border-radius: 50%;
+
+}
