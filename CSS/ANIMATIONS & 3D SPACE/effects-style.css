@@ -1,0 +1,80 @@
+
+
+@keyframes bounce{
+
+  0%{
+  	transform: translateY(0);
+  }
+
+  25%{
+        transform: translateY(-80px);
+  }
+
+   50%{
+  	  transform: translateY(0);
+  }
+   
+    75%{
+  	  transform: translateY(-40px);
+  }
+
+  100%{
+  	   transform: translateY(0);
+  }
+}
+
+@keyframes rotating{
+
+	from{
+		transform: rotate(360deg);
+	}
+
+	to{
+		transform: rotate(-360deg);
+	}
+}
+
+@keyframes fade-in{
+   
+   from{
+   	opacity: 100%;
+   }
+
+   to{
+   	opacity: 0;
+   }
+}
+
+@keyframes multiple{
+
+ from{
+   	border-radius: 50%;
+   }
+
+   to{
+    transform: translate(50px,50px) rotate(360deg)  ;
+    border-radius: 0;
+    height: 200px;
+    width: 200px;
+   }
+
+}
+ div{
+
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	background-color: cyan;
+   	/*animation: bounce 1s ease-in-out 1 alternate;*/
+
+   	/*animation: rotating 1s ease-in-out 2 alternate; */
+
+   	/*animation: fade-in 1s ease-in-out 1 alternate;*/ 
+
+   	animation: multiple 0.8s ease-in-out infinite alternate;  	
+
+
+
+}
